@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>TICTACTOE</h1>
+
+    <section class="container">
+
+        <section class="left">
+            <h1><strong>Games Won</strong></h1>
+            <p>X has won <span class="xWins">0</span> times</p>
+            <p>O has won <span class="oWins">0</span> times</p>
+        </section>
+
+        <main class="middle">
+            <div class="board">
+                <div class="row">
+                    <div class="square top-left"></div>
+                    <div class="square top-middle"></div>
+                    <div class="square top-right"></div>
+                </div>
+                <div class="row">
+                    <div class="square mid-left"></div>
+                    <div class="square mid-middle"></div>
+                    <div class="square mid-right"></div>
+                </div>
+                <div class="row">
+                    <div class="square bot-left"></div>
+                    <div class="square bot-middle"></div>
+                    <div class="square bot-right"></div>
+                </div>
+
+
+
+            </div>
+
+
+        </main>
+
+        <section class="right">
+
+            <h2>CURRENT TURN:</h2>
+            <h2 class="turn"></h2>
+
+        </section>
+
+    </section>
+
+
+
+</body>
+
+</html>
